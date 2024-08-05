@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form  autocomplete="off">
+    <label >name</label>
+    <input type="text" name="name" placeholder="enter your name" required maxlength="4" minlength="2">
+    <br>
+    <label >password</label>
+    <input type="password">
+    <br>
+    <label >color</label>
+    <input type="color">
+    <br>
+    <label>date</label>
+    <input type="datetime-local" name="date" >
+    <br>
+    <select name="selectcourse">
+      <option  disabled selected>select course</option>
+      <option value="">html</option>
+      <option value="">css</option>
+      <option value="">js</option>
+    </select>
+    <br>
+    <br>
+    <select multiple name="select courses" >
+      <option  disabled selected>select course</option>
+      <option value="">html</option>
+      <option value="">css</option>
+      <option value="">js</option>
+    </select>
+    <br>
+    <input type="file" name="data" multiple>
+    <br>
+    <input type="range" name="range" min="2" max="4">
+    <br>
+    <button>submit</button>
+  </form>
+</body>
+</html>
