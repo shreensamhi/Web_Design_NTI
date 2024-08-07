@@ -1,0 +1,153 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.containing{
+    padding: 3%;
+    margin: 2%;
+}
+.nav_style{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 2%;
+}
+.h2_style{
+    float: left;
+    margin-left: 5%;
+}
+.ul_style{
+    float: right;
+    list-style-type: none;
+    width: 21%;
+    margin-left: 5%;
+    
+   
+}
+.li_style{
+    display: inline-block;
+    margin-right: 2%;
+
+}
+.clear{
+    clear: both;
+}
+.container{
+    background-image: url(../images/1871775.jpg);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.127);
+    background-size: 100% 100%;
+    height: 100%;
+    background-blend-mode:lighten;
+    
+}
+.form_style{
+    width: 30%;
+    margin: 5%;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+.form1_style{
+    padding: 3%;
+    display: block;
+    width: 100%;
+    
+    background-color: white;
+ 
+    border: 0;
+  
+
+}
+.form2_style{
+    padding: 3%;
+    display: block;
+    width: 83%;
+    margin: 5% auto;
+    background-color: white;
+    margin-bottom: 3%;
+    border: 0;
+    border-bottom: 1px solid lightgrey;
+
+}
+.contain{
+    width: 29%;
+    display: inline-block;
+    margin-left: 9%;
+    margin-top: 5%;
+    padding-bottom: 80px;
+    vertical-align: middle;
+    float: left;
+    color: white;
+   
+}
+.span_style{
+    color: yellow;
+}
+.css{
+    padding: 3%;
+    display: block;
+    width: 100%;
+    background-color: white;
+    border-style: none;
+    
+    
+}
+.css_style{
+    background: lightgray;
+    text-align: center;
+    padding: 2% 1%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+button{
+    padding: 3%;
+width: 100%;  
+background-color: orange;
+color: white;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+display: block;
+border-style: none;
+}
+.hr_style{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 20%;
+}
+.download_style
+{
+    background-color: transparent;
+    margin-top:5% ;
+    border-radius: 6px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    width: 30%;
+}
+
+#main-footer {
+    padding: center;
+    background-color: bisque;
+    width: 100%;
+  
+}
+    .footer_text {
+      text-align: left;
+      padding: 1%;
+      width: 20%;
+      margin-left: 6%;
+      display: inline-block;
+    }
+  
+    .footer_icons {
+    
+      display: inline-block;
+      width: 20%;
+      padding: 4px;
+      float: right;
+      
+    }
+      
