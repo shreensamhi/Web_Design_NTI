@@ -2,12 +2,12 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-}
-
-html {
     scroll-behavior: smooth;
 }
 
+body{
+  font-family: "Gupter", serif;
+}
 .containing {
     width: 80%;
     padding-left: auto;
@@ -61,7 +61,6 @@ html {
     padding-bottom: 5%;
 
 }
-
 .form_style {
     width: 30%;
     margin: 5%;
@@ -74,9 +73,7 @@ html {
     padding: 3%;
     display: block;
     width: 100%;
-
     background-color: white;
-
     border: 0;
 
 
@@ -128,7 +125,7 @@ html {
     border-top-right-radius: 10px;
 }
 
-button {
+button{
     padding: 3%;
     width: 100%;
     background-color: orange;
@@ -168,22 +165,21 @@ button:hover{
     text-align: left;
     padding: 1%;
     width: 20%;
-    margin-left: 6%;
+    margin-left: 3%;
     display: inline-block;
 }
 
 .footer_icons {
 
     display: inline-block;
+    font-size: 300%;
     width: 20%;
-    padding: 4px;
+    padding: 2%;
     float: right;
-
 }
 
 .section2 {
     background-color: rgba(159, 155, 155, 0.383);
-    padding-bottom: 10%;
 }
 
 .tab1 {
@@ -220,7 +216,7 @@ button:hover{
     width: 30%;
     display: inline-block;
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .download_style1 {
@@ -242,34 +238,52 @@ button:hover{
 }
 
 .tab3 {
-    vertical-align: top;
-    width: 30%;
-    display: inline-block;
-    margin-top: 10%;
-    margin-left: 9%;
+  vertical-align: top;
+  width: 21%;
+  display: inline-block;
+  margin-top: 9%;
+  margin-left: 131px;
 }
 
 .tab3 img {
     -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
-    width: 50%;
+    width: 100%;
 }
 
 .section3 {
     background-color: rgba(108, 102, 102, 0.383);
-    padding-bottom: 10%;
 }
 
 .divsec3 {
-    width: 50%;
+    width: 35%;
     display: inline-block;
+    margin: 5%;
+    position: relative;
 }
 
 .divsec3 img {
     box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
-    width: 50%;
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-bottom: 10%;
+    width: 100%;
+    display: block;
+}
+.card-overlay{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.549);
+  width: 100%;
+  top: 0;
+  height: 100%;
+  transition: background-color 0.5s, opacity 0.5s;
+  opacity: 0;
+}
+.divsec3:hover .card-overlay{
+background-color: rgba(0, 0, 0, 0.297);
+opacity: 1;
+}
+.overlay{
+  position: absolute;
+  bottom: 10%;
+  left: 8%;
+  color: white;
 }
 
 .div2sec3 {
@@ -289,39 +303,34 @@ button:hover{
 .supsection {
     width: 100%;
     margin-top: 5%;
+    display: block;
 }
 
 .supsection img {
     width: 10%;
     float: left;
 }
-
-.supsection h3 {
-    padding-left: 14%;
+.BORDER{
+  font-size: 200%;
+  border-radius: 50%;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px; 
 }
+.center{
+display: inline-block;
+padding-left: 2%;
 
-.supsection p {
-    padding-left: 14%;
-    padding-top: 2%;
 }
-
-.supsection ul {
-    list-style: none;
-}
-.lisup
-{
-    padding-top: 5%;
-}
-
 .section4{
     background-color: rgb(110, 108, 108);
-    padding: 8% 0 10% 0;
+  
 }
 .divsec4{
     width: 30%;
     display: inline-block;
     vertical-align: top;
-    margin-left: 10%;
 }
 .divsec4 hr {
     margin: 3% 0;
@@ -329,18 +338,34 @@ button:hover{
     border-style: double;
     color: orange;
 }
+.divsec4 p{
+  font-size: 130%;
+}
 .div2sec4 {
+  position: relative;
     display: inline-block;
-    width: 30%;
+    width: 42%;
+    margin-left: 20%;
 }
 .div2sec4 img {
     box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
     width: 100%;
-    margin-left: 50%;
+    display: block;
 }
+.cardoverlay{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  top: 0;
+  height: 100%;
+  display: none;
+}
+.div2sec4:hover .cardoverlay{
+  background-color: rgba(0, 0, 0, 0.297);
+  display: block;
+  }
 .section5{
     background-color: darkgray;
-    padding: 10% 0 10% 0;
 }
 .section5 h1 , .section5 p{
     text-align: center;
@@ -367,12 +392,16 @@ button:hover{
 .section-container{
     width: 80%;
     margin: auto;
+    padding: 5% 0;
 }
 .section6{
     background-color: rgb(197, 194, 194);
-    padding: 10% 0 10% 0;
+    
 }
-.section6 h1 , .section6 p{
+.section6 h1  ,.section7 h1{
+  text-align: center;
+} 
+.section6 p{
     text-align: center;
     padding-bottom: 4%;
 }
@@ -453,9 +482,9 @@ button:hover{
 }
 .section7{
   background-color: rgb(154, 152, 152);
-  padding: 10% 0 10% 0;
+  
 }
-.section7 h1 , .section7 p{
+.section7 p{
   text-align: center;
   padding-bottom: 4%;
 }
@@ -485,21 +514,27 @@ button:hover{
   margin-left: -10px;
   margin-bottom: 0;
 }
-.divsec7 img{
+.divsec7 img {
   margin-left: -69%;
-    padding-top: 8%;
-    display: inline-block;
-}
-.supsec7{
   display: inline-block;
+  border-radius: 50%;
+  border: 2px solid black; 
+  width: 20%; /* Ensure width and height are the same */
+  height: 20%; /* Added height to match width */
+  object-fit: cover; /* Ensures the image fills the circle */
+  margin-top: 8%;
 }
 
+.supsec7{
+  display: inline-block;
+    padding: 16% 5%;
+    vertical-align: top;
+}
 .section8{
   background-image: url(../images/City-PNG-Images-HD.png);
   background-color: rgba(0, 0, 0, 0.83);
   background-repeat: no-repeat;
   color: white;
-  padding: 10% 0 10% 0;
 }
 .section8 h1 , .section8 p{
   text-align: center;
@@ -520,7 +555,6 @@ button:hover{
 }
 .section9{
     background-color: white;
-    padding: 10% 0 10% 0;
 }
 .section9 h1, .section9 p{
  text-align: center;
@@ -566,11 +600,16 @@ button:hover{
     border-top-right-radius: 10px;
     margin-left: 37%;
 }
+.footer-container
+{
+  width: 80%;
+    margin: auto;
+    padding: 1% 0;
+}
 #finalfooter{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 4%;
 }
 .ICON{
     display: inline-block;
