@@ -315,7 +315,7 @@ justify-content: space-between;
 .section4-form i{
     position: absolute;
     top: 80px;
-    left: 130px;
+    left: 102px;
     background-color: white;
     color: rgba(148, 146, 146, 0.39);
     transition: 1s;
@@ -343,4 +343,95 @@ justify-content: space-between;
 }
 .sec4colum-card h2 ,.sec4colum-card p{
 margin: 3%;
+}
+.buttonsec4{
+  border-radius: 20%;
+  border: 1px solid gray;
+  color: gray;
+  background-color: white;
+  margin: 5% 25% 5% 48%;
+  padding: 1%;
+  width: 12%;
+}
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+}
+
+.footer-content {
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4%;
+}
+
+.footer-left, .footer-right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+    width: 20%;
+}
+.footer-center{
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+.footer-colum{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  flex-direction: column;
+}
+.footer-left h2 {
+    margin-bottom: 10px;
+}
+.footer-left p{
+  color: #ccc;
+
+}
+.footer-center a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 5px 0; 
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    justify-content: start;
+    margin-top: 10px;
+}
+
+.subscribe input {
+    padding: 10px;
+    background-color: #222;
+    color: gray;
+    border: none;
+    margin-right: 10px;
+}
+
+.subscribe .submit-btn {
+    color: gray;
+    font-size: 16px;
+}
+
+.subscribe .submit-btn:hover {
+    background-color: #ccc;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
 }
