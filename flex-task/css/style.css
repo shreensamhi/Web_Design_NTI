@@ -1,0 +1,212 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Gupter", serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* -------------------------- section1 ----------------------------- */
+.section1{
+    background-image: url(../images/cityscape-3346227.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+    background-size: 100% 100%;
+    height: 100%;
+    background-blend-mode: lighten;
+}
+.sec-flex{
+display: flex;
+flex-direction: column;
+height: 700px;
+justify-content: space-between;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+   color: white;
+   padding: 2% 2% 0 0;
+   border-bottom:1px solid white
+  
+}
+
+.h2_style {
+    float: left;
+    margin-left: 5%;
+}
+
+ul{
+    list-style-type: none;
+    width: 20%;
+    color: rgb(172, 170, 170);
+    
+}
+
+ul a{
+    color: rgb(172, 170, 170);
+    text-decoration: none;
+}
+.card-flex ,.card2-flex{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 2%;
+}
+.card-flex h2{
+        border-radius: 50%;
+        border-style: solid;
+        padding: 2% 4%;
+        width: 50px;
+        height: 50px;
+        border-color: rgb(186, 184, 184);
+}
+.card2-flex h2{
+    border-radius: 50%;
+    border-color: rgb(186, 184, 184);
+    border-style: solid;
+    padding: 2% 4%;
+    width: 50px;
+    height: 50px;
+    border-right-color:blue ;
+    border-top-color:blue ;
+    border-bottom-color:blue ;
+}
+.card2-flex p{
+    width: 80%;
+    line-height: 1.5;
+}
+.card-flex p{
+    width: 80%;
+    line-height: 1.5;
+}
+/* -------------------------- section1 ----------------------------- */
+/* -------------------------- section2 ----------------------------- */
+.section2{
+    background-color: rgb(247, 246, 246);
+    background-size: 100% 100%;
+    height: 100%;
+    background-blend-mode: lighten;
+}
+.Twoside-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aside-flex{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.aside-flex nav{
+    color: rgb(15, 14, 14);
+    border-bottom: 1px solid #a79e9e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.aside-flex ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.aside-flex ul a{
+    color: rgb(15, 14, 14);
+    text-decoration: none;
+}
+.section2-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.img-form{
+    width: 40%;
+    box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
+    color: rgb(103, 102, 102);
+    position: relative;
+}
+.img-form img{
+    width: 100%;
+}
+.text p ,.text h2{
+    padding: 4%;
+}
+.img-form button{
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    background-color: white;
+    color: black;
+    width: 30%;
+    transition: 1s;
+}
+.img-form button:hover{
+    background-color: brown;
+}
+.sidecolum
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.cardflex{
+    width: 100%;
+    display: flex;
+    box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
+    color: rgb(103, 102, 102);
+    margin-bottom: 2%;
+}
+.cardflex img{
+    width: 30%;
+}
+.cardflex h2 ,.cardflex p{
+    padding: 8%;
+}
+.arrow-flex{
+        margin: 2%;
+        color: gray;
+        border-radius: 50%;
+        border: 1px solid grey;
+        padding: 10px;
+      
+}
+.aside-right{
+ border-left:1px solid #a79e9e;
+ width: 28%;
+}
+.aside-right h2{
+    border-bottom:1px solid #a79e9e;
+    padding: 4%;
+}
+ .aside-right p{
+    border-bottom:1px solid #a79e9e;
+    padding: 4%;
+    color: #a79e9e;
+}
+.top-stories{
+    border-bottom:1px solid #a79e9e;
+    padding: 4%;
+}
+.top-card{
+    display: flex;
+    box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
+    margin-bottom: 3%;
+}
+.top-card img{
+width: 20%;
+margin-right: 2%;
+}
+.top-card h4{
+    padding: 6%;
+}
