@@ -1,0 +1,270 @@
+@media (max-width : 850.89px)
+{
+    .d-flex {
+        flex-wrap: wrap;
+    }
+
+    nav {
+        width: 100%;
+    }
+    .card2-flex h2{
+        padding: 1% 2%;
+    }
+    .card2-flex p {
+        width: 90%;
+    }
+    .top-stories{
+        padding: 0;
+    }
+    .sec-flex ul {
+        width: 80%;
+    }
+
+    .Twoside-flex {
+        flex-wrap: wrap;
+    }
+
+    .aside-flex {
+        width: 100%;
+    }
+
+    .aside-flex ul {
+        width: 80%;
+    }
+
+    .section2-flex {
+        flex-wrap: wrap;
+    }
+
+    .img-form {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .card-flex {
+        display: none;
+    }
+
+    .card2-flex {
+
+        width: 100%;
+    }
+
+    .section2 {
+        width: 100%;
+    }
+
+    .sidecolum {
+        width: 100%;
+    }
+
+    .sec2-2form {
+        flex-wrap: wrap;
+    }
+    .section3{
+        margin-top: 45%;
+    }
+    .sec3-4cards {
+        flex-wrap: wrap;
+    }
+
+    .supsec3 {
+        width: 100%;
+    }
+
+    .aside-right {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 4%;
+        border: none;
+    }
+
+    .section3-flex {
+        flex-wrap: wrap;
+    }
+    .mediabackimg{
+        margin-left: 22%;
+        margin-bottom: 5%;
+    }
+    .backimg {
+        width: 45%;
+    }
+    .backimg h3{
+        margin-top: 23%;
+        margin-bottom: 5%;
+    }
+    .section4-flex {
+        width: 100%;
+    }
+
+    .section4-right {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section4-form i {
+        left: 290px;
+    }
+
+    .buttonsec4 {
+        width: 21%;
+        margin-left: 34%;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+    }
+
+    .footer-left,
+    .footer-right {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .footer-center {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .subscribe {
+        justify-content: space-between;
+    }
+
+    .cardflex {
+        margin-bottom: 4%;
+    }
+
+}
+
+
+
+@media (max-width : 589.89px) {
+    .d-flex {
+        flex-wrap: wrap;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .sec-flex ul {
+        width: 80%;
+    }
+
+    .Twoside-flex {
+        flex-wrap: wrap;
+    }
+    .mediabackimg{
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .aside-flex {
+        width: 100%;
+    }
+
+    .aside-flex ul {
+        width: 80%;
+    }
+
+    .section2-flex {
+        flex-wrap: wrap;
+    }
+
+    .img-form {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .card-flex {
+        display: none;
+    }
+
+    .card2-flex {
+
+        width: 100%;
+    }
+
+    .section2 {
+        width: 100%;
+    }
+    .cardflex img{
+        width: 44%;
+    }
+    .top-card img{
+        width: 55%;
+    }
+    .sidecolum {
+        width: 100%;
+    }
+
+    .sec2-2form {
+        flex-wrap: wrap;
+    }
+    .section3{
+        margin-top:0;
+    }
+    .sec3-4cards {
+        flex-wrap: wrap;
+    }
+
+    .supsec3 {
+        width: 100%;
+    }
+
+    .aside-right {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 0;
+        border: none;
+    }
+
+    .section3-flex {
+        flex-wrap: wrap;
+    }
+
+    .backimg {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .section4-flex {
+        width: 100%;
+    }
+
+    .section4-right {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section4-form i {
+        left: 190px;
+    }
+
+    .buttonsec4 {
+        width: 21%;
+        margin-left: 34%;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+    }
+
+    .footer-left,
+    .footer-right {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .footer-center {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .subscribe {
+        justify-content: space-between;
+    }
+
+    .cardflex {
+        margin-bottom: 4%;
+    }
+}

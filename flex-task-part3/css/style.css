@@ -1,0 +1,446 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+  font-family:sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* -------------------------- section1 ----------------------------- */
+.section1{
+    background-image: url(../images/cityscape-3346227.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+    background-size: 100% 100%;
+    height: 100%;
+    background-blend-mode: lighten;
+}
+.sec-flex{
+display: flex;
+flex-direction: column;
+height: 700px;
+justify-content: space-between;
+}
+.sec-flex  ul{
+
+  list-style-type: none;
+display: flex;
+justify-content: space-between;
+width: 50%;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+   color: white;
+   padding: 2% 2% 0 0;
+   border-bottom:1px solid white
+  
+}
+
+ul{
+    list-style-type: none;
+    width: 20%;
+    color: rgb(172, 170, 170);
+    
+}
+
+ul a{
+    color: rgb(172, 170, 170);
+    text-decoration: none;
+}
+.card-flex ,.card2-flex{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 2%;
+}
+.card-flex h2{
+        border-radius: 50%;
+        border-style: solid;
+        padding: 2% 4%;
+        width: 50px;
+        height: 50px;
+        border-color: rgb(186, 184, 184);
+}
+.card2-flex h2{
+    border-radius: 50%;
+    border-color: rgb(186, 184, 184);
+    border-style: solid;
+    padding: 2% 4%;
+    width: 50px;
+    height: 50px;
+    border-right-color:blue ;
+    border-top-color:blue ;
+    border-bottom-color:blue ;
+}
+.card2-flex p{
+    width: 80%;
+    line-height: 1.5;
+}
+.card-flex p{
+    width: 80%;
+    line-height: 1.5;
+}
+/* -------------------------- section1 ----------------------------- */
+/* -------------------------- section2 ----------------------------- */
+.section2{
+    background-size: 100% 100%;
+    height: 100%;
+    background-blend-mode: lighten;
+}
+.Twoside-flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+.aside-flex{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.aside-flex nav{
+    color: rgb(15, 14, 14);
+    border-bottom: 1px solid #a79e9e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.aside-flex ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.aside-flex ul a{
+    color: rgb(15, 14, 14);
+    text-decoration: none;
+}
+.section2-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.img-form{
+    display: flex;
+    width: 48%;
+    box-shadow: 0 0px 8px 2px rgb(227 224 224);
+    color: rgb(103, 102, 102);
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.img-form img{
+    width: 100%;
+    height: 100%;
+}
+.text p ,.text h2{
+    padding: 2%;
+}
+.img-form button{
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    background-color: white;
+    color: black;
+    width: 30%;
+    transition: 1s;
+}
+.img-form button:hover{
+    background-color: brown;
+    transform: rotate(360deg);
+}
+.sidecolum
+{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    justify-content: space-between;
+}
+.cardflex{
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0px 8px 2px rgb(227 224 224);
+    color: rgb(103, 102, 102);
+}
+.cardflex img{
+    width: 30%;
+}
+.sidecolum-card{
+    padding:4%;
+}
+.sidecolum-card h2{
+    padding:4%;
+}
+.arrow-flex{
+        margin: 2%;
+        color: gray;
+        border-radius: 50%;
+        border: 1px solid grey;
+        padding: 10px;
+      
+}
+.aside-right{
+ border-left:1px solid #a79e9e;
+ width: 28%;
+ margin-left: 4%;
+ height: 1500px;
+}
+.aside-right h2{
+    border-bottom:1px solid #a79e9e;
+    padding: 2%;
+}
+ .aside-right p ,.icons{
+    border-bottom:1px solid #a79e9e;
+    padding: 4%;
+    color: #a79e9e;
+}
+.top-stories{
+    border-bottom:1px solid #a79e9e;
+    padding: 4%;
+}
+.top-card{
+    display: flex;
+    box-shadow: 0 0px 8px 2px rgb(227 224 224);
+    margin-bottom: 3%;
+}
+.top-card img{
+    width: 45%;
+margin-right: 2%;
+}
+.top-card h4{
+    padding: 6%;
+}
+.pick-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 6%;
+    flex-direction: column;
+}
+.pick-flex img{
+    width: 100%;
+
+}
+.pick-flex h2{
+    border-bottom: none;
+}
+.sec2-2form{
+display: flex;
+justify-content: space-between;
+}
+.sec3-4cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+.supsec3{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
+.section3-flex{
+    padding-top: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.backimg{
+    width: 30%;
+    position: relative;
+    display: flex;
+}
+.backimg img{
+    width: 100%;
+}
+.overlayimg{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: #fefdfd;
+}
+.backimg h3{
+    margin-top: 33%;
+    margin-bottom: 10%;
+} 
+.backimg button{
+    position: absolute;
+    top: 14px;
+    left: 96px;
+    background-color: white;
+    color: black;
+    width: 30%;
+    transition: 1s;
+}
+.backimg button:hover{
+    background-color: brown;
+    transform: rotate(360deg);
+}
+.h2_style{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.717);
+    margin-bottom: 3%;
+}
+.section4-flex{
+    width: 67%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.section4-right{
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 2%;
+}
+.section4-form{
+    display: flex;
+    box-shadow: 0 0px 8px 2px rgb(227 224 224);
+    color: rgb(103, 102, 102);
+    position: relative;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+.section4-form img{
+    width: 100%;
+    height: 180px;
+}
+.section4-form i{
+    position: absolute;
+    top: 80px;
+    left: 102px;
+    background-color: white;
+    color: rgba(148, 146, 146, 0.39);
+    transition: 1s;
+    margin: 2%;
+    border-radius: 96%;
+    border: 1px solid rgb(250, 247, 247);
+    padding: 10px;
+
+}
+.section4-form button{
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    background-color: white;
+    color: black;
+    width: 30%;
+    transition: 1s;
+}
+.section4-form button:hover{
+    background-color: brown;
+    transform: rotate(360deg);
+}
+.sec4colum-card{
+    padding: 2%;
+}
+.sec4colum-card h2 ,.sec4colum-card p{
+margin: 3%;
+}
+.buttonsec4{
+  border-radius: 20px;
+  border: 1px solid gray;
+  color: gray;
+  background-color: white;
+  margin: 5% 25% 5% 48%;
+  padding: 1%;
+  width: 12%;
+}
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+}
+
+.footer-content {
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4%;
+}
+
+.footer-left, .footer-right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+    width: 20%;
+}
+.footer-center{
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+.footer-colum{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  flex-direction: column;
+}
+.footer-left h2 {
+    margin-bottom: 10px;
+}
+.footer-left p{
+  color: #ccc;
+
+}
+.footer-center a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 5px 0; 
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.subscribe input {
+    padding: 10px;
+    background-color: #222;
+    color: gray;
+    border: none;
+    margin-right: 70px;
+}
+
+.subscribe button {
+    color: gray;
+    font-size: 16px;
+    border: none;
+    background-color: #222;
+}
+
+.subscribe .submit-btn:hover {
+    background-color: #ccc;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+}
