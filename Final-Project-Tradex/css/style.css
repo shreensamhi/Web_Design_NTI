@@ -91,7 +91,7 @@ width: 380px;
  text-align: center;
   margin-left: 22%;
 }
-.card {
+.card5 {
   position: relative;
   width: 30%;
   height: 250px;
@@ -99,13 +99,13 @@ width: 380px;
   margin: auto;
   margin-bottom: 1%;
 }
-.card i{
+.card5 i{
   padding-top: 20%;
 }
 .hidden{
   position: absolute;
   height: 300px;
-top: 100%;
+  top: 100%;
   background: rgb(252, 252, 252);
   color: rgb(12, 12, 12);
   width: 100%;
@@ -113,7 +113,7 @@ top: 100%;
   opacity: 0;
   padding: 15%;
 }
-.card:hover .hidden{
+.card5:hover .hidden{
  top: 0;
  opacity: 1;
 }
@@ -160,26 +160,11 @@ top: 100%;
 
 
 .mergebtn {
-  border: 1px solid #0d6efd;
-  border-radius: 50px;
   overflow: hidden;
   margin-left: 40%;
   margin-top: 4%;
 }
 
-.bt1 , .bt2 {
-  flex: 1;
-  text-align: center;
-  margin: 0;
-}
-.bt2:hover {
-  background-color: #0d6efd;
-  color: white;
-}
-.bt2:hover .bt1{
-  background-color: none !important;
-  color: #0d6efd !important;
-}
 .card1 {
   width: 400px;
   border: 1px solid #e0e0e0;
@@ -202,4 +187,26 @@ top: 100%;
 
 .card1 .fa-check {
   margin-right: 10px;
+}
+
+.btb1{
+  position: relative;
+  overflow: hidden;
+}
+.btb1::after{
+   background: #ebe4e459;
+    content: "";
+    height: 155px;
+    right: 103%;
+    opacity: 1;
+    position: absolute;
+    bottom: -82%;
+    transform: rotate(35deg);
+    transition: all 1.2s cubic-bezier(0.19, 1, 0.22, 1);
+    width: 40px;
+    z-index: 0;
+}
+
+.btb1:hover::after{
+  right: -80%;
 }
