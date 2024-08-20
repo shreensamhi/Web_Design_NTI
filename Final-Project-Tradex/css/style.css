@@ -210,3 +210,34 @@ width: 380px;
 .btb1:hover::after{
   right: -80%;
 }
+.wcardhover{
+  width: 30%;
+}
+.bgicons{
+  width: 100%;
+    max-width: 50px;
+    transition: 1s;
+}
+.cardimge{
+  overflow: hidden;
+}
+.cardimge img{
+  transition: 1s;
+}
+.wcardhover:hover img{
+  transform: scale(1.1) rotate(-2deg);
+}
+.wcardhover:hover .bgicons{
+  background-color: #0d6efd !important;
+}
+.wcardhover:hover .progress-bar{
+  width: 100% !important;
+}
+
+.person-shadow {
+    filter: drop-shadow(-16px 0 5px rgba(140, 140, 140, 0.4));
+}
+
+.cardsmeet{
+  height: 124px;
+}
