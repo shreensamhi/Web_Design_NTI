@@ -1,0 +1,26 @@
+@media( max-width :1400px) {
+  #headertop{
+    display: none !important;
+  }
+  .hide-on-small {
+    display: none !important;
+}
+}
+
+@media (max-width: 900px) {
+  .hide-on-small {
+      display: none !important;
+  }
+
+  .carousel-indicators {
+    rotate: none;
+    bottom: 2%;
+    top: auto;
+    left: 0;
+    margin-right: 10%;
+  }
+  .text-section1{
+    margin-top: 10%;
+  }
+  
+}

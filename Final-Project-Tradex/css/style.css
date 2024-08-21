@@ -62,18 +62,21 @@ display: block;
   margin-left: 35%;
   height: 450px;
 }
-p{
+
+p {
   margin-bottom: 0;
 }
-.row1about{
-width: 380px;
+
+.row1about {
+  width: 380px;
 }
-.cardrow{
+
+.cardrow {
   top: 50%;
   left: 15%;
 }
 
-.row1about:hover  .icons ,.row1about:hover h5{
+.row1about:hover .icons, .row1about:hover h5 {
   color: #0d6efd;
 }
 .cardcount{
@@ -253,3 +256,28 @@ width: 380px;
 .card{
   --bs-card-bg: none !important;
 }
+
+
+.btn-custom:hover{
+background-color: #0d6efd !important;
+color: white !important;
+}
+.footer{
+  padding: 26px 0;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.5);
+  background-color: #1a1a1a;
+    color: #fff;
+}
+.footer a{
+  margin-left: 40%;
+}
+.contactfooter{
+  justify-content: center;
+    margin-top: 15%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 3%;
+}
+
+/* .margin-left{
+  margin-left: 40%;
+} */
