@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tradex</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
@@ -197,8 +199,7 @@
       <p class="text-center">About Us</p>
       <div class="contentabout d-flex justify-content-center mt-4 ">
       <div class="sec1-about w-50 position-relative ">
-       <img src="imges/abt-3.jpg" alt="">
-       <div class="row cardrow position-absolute translate-middle shadow mb-5 bg-body-tertiary rounded">
+        <div class="row cardrow position-absolute translate-middle shadow mb-5 bg-body-tertiary rounded">
         <div class="col-12">
           <div class="row row1about pb-3 pt-3">
             <div class="col-2 fs-3 text-center mt-4"><i class="fa-solid fa-bullhorn fs-30px icons"></i> </div>
@@ -230,6 +231,7 @@
           </div>
         </div>
        </div>
+       <img src="imges/abt-3.jpg" alt="">
       </div>
       <div class="sec2-about w-25 me-4">
         <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -239,39 +241,39 @@
            Molestias, iure libero.</p>
            <p class="pb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam ad unde quidem officiis odio ut ipsa velit ea,
              cumque consectetur sapiente explicabo atque quo voluptas eius, doloremque est, autem deserunt!</p>
-             <button class="btb1 btn btn-primary rounded-pill ps-3 pe-3 animate__animated animate__fadeInUpBig border border-primary">Learn More</button>
+             <button class="btb1 w-md-50 btn btn-primary rounded-pill ps-3 pe-3 animate__animated animate__fadeInUpBig border border-primary">Learn More</button>
       </div>
       </div>
     </div>
     </div>
   
   <section class="counter p-3 bg-body-tertiary mt-5">
-    <div class="container d-flex justify-content-between">
+    <div class="container d-flex justify-content-between cardscounters">
       <div class="groubcounter d-flex mt-4">
         <div class="cardcount shadow p-3 mb-5 bg-body-tertiary rounded me-4"><i class="fa-solid fa-desktop fs-2 text-primary"></i></div>
         <div class="seccount ">
-        <h3>80000</h3>
+        <h3 id="counth3"></h3>
         <p>Total Price</p>
         </div>
       </div>
       <div class="groubcounter d-flex mt-4">
         <div class="cardcount shadow p-3 mb-5 bg-body-tertiary rounded me-4"><i class="fa-solid fa-trophy fs-2 text-primary"></i></div>
         <div class="seccount ">
-        <h3>810</h3>
+        <h3 id="810"></h3>
         <p> Won Awards</p>
         </div>
       </div>
       <div class="groubcounter d-flex mt-4">
         <div class="cardcount shadow p-3 mb-5 bg-body-tertiary rounded me-4"><i class="fa-regular fa-face-smile fs-2 text-primary"></i></div>
         <div class="seccount ">
-        <h3>2000</h3>
+        <h3 id="2000"></h3>
         <p>Happy Clients</p>
         </div>
       </div>
       <div class="groubcounter d-flex mt-4">
         <div class="cardcount shadow p-3 mb-5 bg-body-tertiary rounded me-4"><i class="fa-solid fa-calendar-days fs-2 text-primary"></i></div>
         <div class="seccount ">
-        <h3>20</h3>
+        <h3 id="20"></h3>
         <p>Years Experience</p>
         </div>
       </div>
@@ -777,40 +779,107 @@
               <hr class="hr2 border-1 m-1 border border-primary opacity-100">
             </div>
         </div>
-        <div class="d-flex justify-content-around mt-5">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="imges/testi-avtar-1.jpg" class="img-fluid rounded-start mt-4 ms-4 w-75" alt="...">
+    
+          <div class="owl-carousel mt-5">
+            <div> <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imges/testi-avtar-1.jpg" class="img-fluid rounded-start mt-4 ms-4 mb-4 w-75" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Jon Don</h5>
+                    <h6 class="card-title text-primary">Markating Manager</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Jon Don</h5>
-                  <h6 class="card-title text-primary">Markating Manager</h6>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
+            </div> </div>
+            <div> <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imges/testi-avtar-4.jpg" class="img-fluid rounded-start mt-4 ms-4 mb-4 w-75" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Jon Don</h5>
+                    <h6 class="card-title text-primary">Markating Manager</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
               </div>
-            </div>
+            </div> </div>
+            <div> <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imges/testi-avtar-1.jpg" class="img-fluid rounded-start mt-4 ms-4 mb-4 w-75" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Jon Don</h5>
+                    <h6 class="card-title text-primary">Markating Manager</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+              </div>
+            </div></div>
+            <div> <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imges/testi-avtar-4.jpg" class="img-fluid rounded-start mt-4 ms-4 mb-4 mb-4 w-75" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Jon Don</h5>
+                    <h6 class="card-title text-primary">Markating Manager</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+              </div>
+            </div></div>
+            <div> <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imges/testi-avtar-1.jpg" class="img-fluid rounded-start mt-4 ms-4 mb-4 w-75" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Jon Don</h5>
+                    <h6 class="card-title text-primary">Markating Manager</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+              </div>
+            </div></div>
+            <div> <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imges/testi-avtar-4.jpg" class="img-fluid rounded-start mt-4 ms-4 mb-4 mb-4 w-75" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Jon Don</h5>
+                    <h6 class="card-title text-primary">Markating Manager</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+              </div>
+            </div> </div>
+            <div> <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imges/testi-avtar-1.jpg" class="img-fluid rounded-start mt-4 ms-4 mb-4 w-75" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Jon Don</h5>
+                    <h6 class="card-title text-primary">Markating Manager</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+              </div>
+            </div></div>
           </div>
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="imges/testi-avtar-4.jpg" class="img-fluid rounded-start mt-4 ms-4 mb-4 w-75" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Jon Don</h5>
-                  <h6 class="card-title text-primary">Markating Manager</h6>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-              </div>
-            </div>
-          </div>
-          </div>
-          <div class="d-flex justify-content-center mt-5">
-            <button class=" rounded-start-pill px-4 m-0 me-5 border border-1 border-primary bg-primary text-white"><i class="fa-solid fa-arrow-left"></i></button>
-            <button class=" rounded-end-pill px-4 m-0 border border-1 border-primary bg-primary text-white"><i class="fa-solid fa-arrow-right"></i></button>
-        </div>
           </div>
     </section>
 
@@ -1058,10 +1127,11 @@
       </div>
     </section>
     <a href="#headertop" id="arrow-link" class="transition-4">
-      <i id="arrow-icon" class="fa-solid fa-arrow-up-long position-fixed rounded-circle bg-primary text-white bottom-0 end-0 me-5 fs-1 mb-3"></i>
-  </a>
-  
-  <script src="js/java.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <i id="arrow-icon" class="fa-solid fa-caret-up position-fixed rounded-circle bg-primary text-white bottom-0 end-0 me-5 fs-1 mb-3"></i>
+    </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/java.js"></script>
   </body>
 </html>

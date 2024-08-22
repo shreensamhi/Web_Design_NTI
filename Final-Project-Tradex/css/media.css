@@ -7,7 +7,7 @@
 }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 979px) {
   .hide-on-small {
       display: none !important;
   }
@@ -22,5 +22,39 @@
   .text-section1{
     margin-top: 10%;
   }
-  
+  .contentabout{
+    display: block !important;
+  }
+  .cardrow {
+    width: 100%;
+    transform: none !important;
+    position: static !important;
+}
+.sec1-about {
+  width: 100% !important;
+  margin-top: 3%;
+}
+.sec1-about img 
+{
+  width: 95%;
+   margin-left: 0;
+   margin-top: 5%;
+  }
+  .sec2-about{
+    width: 100% !important;
+    margin-top: 2%;
+  }
+  .cardsservice img{
+    height:1100px;
+  }
+  .card5{
+    width: 50%;
+  }
+  .groubcounter{
+    width: 40%;
+  }
+  .cardscounters{
+    flex-wrap: wrap;
+  }
+
 }

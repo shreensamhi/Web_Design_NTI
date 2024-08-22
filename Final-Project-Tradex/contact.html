@@ -140,7 +140,7 @@
           <div class="text-section1 text-white">
             <h1>Contact</h1>
             </div>
-            <div class="d-flex bg-opacity-75 contactfooter">
+            <div class="d-flex bg-opacity-75 justify-content-center contactfooter">
               <a href="index.html" class="link-underline link-underline-opacity-0 text-white "> Home  <span class="ms-4 me-4"> > </span> </a>
               <a href="#" class="link-underline link-underline-opacity-0 text-secondary">Contact</a>
             </div>
@@ -191,22 +191,26 @@
               <hr class="hr2 border-2 m-1 border border-primary opacity-100">
             </div>
         </div>
-        <form class="d-flex flex-wrap justify-content-between mb-5 mt-5">
+        <form id="form1" class="d-flex flex-wrap justify-content-between mb-5 mt-5">
             <div class="d-flex align-items-center border-bottom border-secondary">
               <i class="fa-regular fa-user"></i>
-              <input type="text" name="name" class="form-control border-0" placeholder="Name">
+              <input type="text" name="name" id="name" class="form-control border-0" placeholder="Name">
+              <p class="text-danger"></p>
             </div>
             <div class="d-flex align-items-center border-bottom border-secondary">
               <i class="fa-regular fa-envelope"></i>
-              <input type="email" name="email" class="form-control border-0" placeholder="Email">
+              <input type="email" name="email" id="userEmail" class="form-control border-0" placeholder="Email">
+              <p class="text-danger"></p>
             </div>
             <div class="d-flex align-items-center border-bottom border-secondary">
               <i class="fa-solid fa-pencil"></i>
               <input type="text" name="subject" class="form-control border-0" placeholder="Subject">
+              <p class="text-danger"></p>
             </div>
             <div class="d-flex align-items-center border-bottom border-secondary w-100 h-50 mt-5">
               <i class="fa-solid fa-pencil me-2"></i>
-              <textarea name="message" class="border-0 form-control w-100" rows="1">Your Message</textarea>
+              <textarea name="message" class="border-0 form-control w-100" rows="1" placeholder="Your Message"></textarea>
+              
           </div>          
             <button class="d-block mt-5 btb1 btn btn-primary rounded-pill">Send Message</button>
           </form>
@@ -302,7 +306,7 @@
     <i id="arrow-icon" class="fa-solid fa-arrow-up-long position-fixed rounded-circle bg-primary text-white bottom-0 end-0 me-5 fs-1 mb-3"></i>
 </a>
 
-<script src="js/java.js"></script>
+<script src="js/javacontact.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
