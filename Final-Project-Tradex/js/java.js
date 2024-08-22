@@ -69,7 +69,7 @@ const icon = document.getElementById('arrow-icon');
             valid4 = false;
           }
           f += 1;
-        }, 10);
+        }, 1);
       }
     });
     

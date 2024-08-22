@@ -56,5 +56,18 @@
   .cardscounters{
     flex-wrap: wrap;
   }
+  .imgcard{
+    width: 50% !important;
+    margin-right: 0 !important;
+  }
+  .card56{
+    width: 100%;
+  }
+  .wcardhover{
+    width: 100% !important;
+  }
+  .meetclientscars{
+    width: 100% !important;
+  }
 
 }
